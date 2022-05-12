@@ -1,0 +1,282 @@
+@media(max-width: 1200px) {
+    .nav_logo{
+        width: 328px;
+        height: 90px;
+    }
+    .nav_content_block{
+        margin-left: 30px;
+    }
+    .nav_list li:nth-last-of-type(n+2){
+        margin-right: 20px;
+    }
+    .video{
+        width: 80vw;
+    }
+    .header_intro_text{
+        width: 90%;
+    }
+    .page_header_content{
+        height: 950px;
+    }
+    .release_card_text{
+        font-size: 14px;
+    }
+    .release_price{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .release_block{
+        gap: 20px;
+    }
+}
+@media(max-width: 992px){
+    .release_img1{
+        display: none;
+    }
+    .release_img2{
+        display: none;
+    }
+    .footer_block2{
+        margin: 30px 0 50px;
+    }
+    .footer{
+        padding: 50px 0 50px;
+    }
+    .characters_text{
+        width: 90%;
+    }
+    .header_content > img{
+        width: 700px;height: 400px;
+    }
+    .header_content > img {
+        width: 700px;
+        height: 400px;
+    }
+    .header_content{
+        height: 600px;
+    }
+    .main_line_title{
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .main_line{
+        padding: 50px 0;
+    }
+    .about{
+        height: 550px;
+    }
+    .release{
+        padding: 40px 0 50px;
+    }
+    .release_block{
+        gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .release_card{
+        width: 34%;
+    }
+    .release_title{
+        margin-bottom: 50px;
+    }
+    .release_card_text{
+        font-size: 16px;
+    }
+    .fatality{
+        height: 550px;
+    }
+    .characters_img {
+        display: none;
+    }
+    .characters_mediaimg{
+        display: block;
+        width: 95%;
+    }
+    .characters{
+        height: 650px;
+    }
+    .nav_content{
+        flex-direction: column;
+    }
+    .nav_content_block{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .fatality_text{
+        width: 90%;
+    }
+    .fatality_title{
+        text-align: center;
+    }
+    
+}
+@media(max-width: 768px){
+    .fatality_block{
+        justify-content: stretch;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fatality_block img{
+        width: 90%;
+    }
+    .fatality{
+        height: 860px;
+    }
+    .fatality_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 30px 0 20px;
+    }
+    .fatality_text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .characters_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .characters_text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .characters{
+        height: 580px;
+    }
+    .header_intro_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 30px 0 20px;
+    }
+    .header_intro_text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .page_header_content{
+        height: 800px;
+    }
+    .release_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .release_block{
+        flex-wrap: nowrap;
+        justify-content: stretch;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .release_card{
+        width: 50%;
+    }
+    .about_block{
+        flex-wrap: wrap;
+    }
+    .about_card{
+        width: 48%;
+    }
+    .about_card img{
+        width: 50px;
+        height: 50px;
+    }
+    .about_card_title{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .about_card_text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .main_line_title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .header_content > img {
+        width: 650px;
+    }
+}
+@media(max-width: 576px){
+    .nav_logo{
+        width: 100%;
+    }
+    .nav_list{
+        flex-wrap: wrap;
+        
+    }
+    .nav_list li:nth-last-of-type(n+3){
+        margin-bottom: 20px;
+    }
+    .footer_block2{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    .release_card{
+        width: 70%;
+    }
+    .about_card{
+        width: 95%;
+    }
+    .about{
+        height: 850px;
+    }
+    .about_block{
+        gap: 50px;
+    }
+    .about_card_title{
+        margin: 15px 0;
+    }
+    .header_intro_info img{
+        width: 90%;
+    }
+    .header_intro_title{
+        text-align: center;
+    }
+    .characters_mediaimg{
+        width: 100%;
+    }
+    .characters_text{
+        margin-bottom: 30px;
+    }
+    .characters{
+        height: 520px;
+    }
+    .fatality_block img{
+        width: 90%;
+    }
+    .fatality{
+        height: 750px;
+    }
+    .contact_left{
+        flex-direction: column;
+    }
+    .contact_left .contact_link:nth-child(1){
+        margin-right: 0;
+    }
+    .contact_left li:nth-of-type(1){
+        margin-bottom: 10px;
+    }
+    .contact_content{
+        align-items: center;
+    }
+    .contact_link{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .nav_link{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .nav_list li{
+        width: 42%;
+    }
+}
+@media(max-width: 400px){
+    .fatality{
+        height: 620px;
+    }
+}
